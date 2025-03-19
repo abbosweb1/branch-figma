@@ -1,0 +1,48 @@
+.projectWrapper{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.project{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+.projectLeft{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2vw;
+}
+.projectLeft>img{
+    width: 40vw;
+}
+.projectRight>p{
+    font-size: 1.5vw;
+}
+.projectRight>h1{
+    font-size: 4vw;
+}
+.projectRight>button{
+    width: 13vw;
+    height: 3vw;
+    background: #37806B;
+    color: white;
+    border: none;
+    border-radius: 2vw 0 2vw 0;
+    font-size: 1.5vw;
+}
+.projectRight>p:nth-child(3){
+    color: #646464;
+}
