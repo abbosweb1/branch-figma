@@ -2,6 +2,7 @@ import { useState } from "react";
 import {  Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 import Projects from "./pages/projects";
 import "./App.css";
 import Services from "./pages/services";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
